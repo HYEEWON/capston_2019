@@ -9,7 +9,6 @@ using namespace cv;
 int main(int argc, char *argv[])
 {
 	VideoCapture cap;
-	//colormain(cap);
-	calibmain();
+	colormain(cap);
 	return 0;
 }
